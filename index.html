@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAHR Search</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="" id="body" style="background-color: white;" >
+ <div class="theme ">
+    <ion-icon size="" name="moon-sharp" id="moon" onclick="dark()"></ion-icon>
+    <span id="mode">Mode</span>
+    <ion-icon name="sunny" id="sun" onclick="sun()" class="text-white"></ion-icon></div>
+   <section>
+
+    <div class="main">
+        <div class="logo">
+           <span class="display-2"><span class="nat" >N</span><span class="text-danger">A</span><span class="text-primary">H</span><span class="text-warning">R</span></span>
+        </div>
+        <div class="search-bar">
+   <input type="text" class="search " id="search">
+   <div class="icon-bar">
+    <img src="./image/search.png" class="icons" >
+    <img src="./image/mic.png" class="icons">
+   </div>
+       </div>
+       
+       <div class="button">
+        <button class="searchbtn btn-primary" id="searchbtn" onclick="Search()" style="font-weight:700 ;">NAHR Search</button>
+       </div>
+    </div>
+   </section>
+   <div id="color" class="text-white"></div>
+      
+
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
